@@ -46,15 +46,9 @@ namespace OperatorsExercise2
         }
         static void Main(string[] args)
         {
-            var x = 15;
-            var y = 30;
-            var z = Add(x, y);
-            var a = 24.35;
-            var b = 75.65;
-            var c = Add(a, b);
-            var d = Add(100, 50, true);
-            Console.WriteLine($"For Integers: {z}, For Decimals: {c}");
-            Console.WriteLine(d);
+            Console.WriteLine(Add(15, 30));
+            Console.WriteLine(Add(24.35, 57.65));
+            Console.WriteLine(Add(100, 50, true));
             Console.WriteLine(Add(5, 8, 3, 6, 8));
         }
     }
